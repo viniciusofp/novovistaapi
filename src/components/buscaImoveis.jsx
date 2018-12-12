@@ -81,8 +81,8 @@ class BuscaImoveis extends Component {
         .replace(/[í]/g, "i")
         .replace(/[óõô]/g, "o")
         .replace(/[ú]/g, "u");
-
       this.props.history.push(newQueryString);
+
       const apiUrl = baseUrl + "/imoveis/listar?showtotal=1&key=" + key;
       const pesquisa = queryObj;
       const query = "&pesquisa=" + JSON.stringify(pesquisa);
