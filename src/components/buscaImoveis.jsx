@@ -7,7 +7,6 @@ import Select from "./common/select";
 import RadioGroup from "./common/radioGroup";
 import Loading from "./common/loading";
 import PaginationArrows from "./common/pagination/paginationArrows";
-const queryString = require("query-string");
 
 const baseUrl = "http://sandbox-rest.vistahost.com.br";
 const key = "c9fdd79584fb8d369a6a579af1a8f681";
